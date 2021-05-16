@@ -9,3 +9,6 @@ Basic Steps to Follow:
 How to make sure your forked repo is up to date with the main Sentry repo:
 1. Add the remote using the command below git remote add upstream https://github.com/Sentry-Project/sentry.git
 2. Follow the steps in this link https://levelup.gitconnected.com/how-to-update-fork-repo-from-original-repo-b853387dd471
+
+A video for GIT & Eclipse:
+https://www.youtube.com/watch?v=LPT7v69guVY 
