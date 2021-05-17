@@ -17,6 +17,13 @@ public class UserController {
 
     private UserService userService;
 
+    
+    @RequestMapping("/setting")
+	public String showSettingPage() {
+		return "setting"; 
+	}
+
+    
     //inject user dao
     @Autowired
     public UserController(UserService theUserService){
