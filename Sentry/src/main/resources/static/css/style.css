@@ -239,6 +239,57 @@ p {
   color: black;
   transition: all .5s ease-in-out;
 }
+
+/*SIGNUP SIGNIN*/
+
+form{
+
+	margin: 0 auto;
+	width:80%;
+	margin-top:10%;	
+	
+}
+input{
+	
+	margin-bottom: 2%;
+}
+
+.btn-default{
+	
+	background-color:  rgba(56, 30, 65, 1);	
+	color:white;
+	border-color: rgba(56, 30, 65, 1);
+}
+.btn-default2{
+	
+	background-color:  #FFFFFF;	
+	color: black;
+	border-color: #FFFFFF;
+}
+
+
+#signup-col1{
+	
+ background-color: rgba(221, 187, 225, 1);
+
+  height:500px;
+
+}
+
+#signup-col2{
+ background-color: rgba(56, 30, 65, 1);
+
+
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 58px;
+text-align: center;
+
+color: #FFFFFF;
+ 
+}
 /* dashboard */
 #board{
    background:url(../images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpeg) no-repeat center;
