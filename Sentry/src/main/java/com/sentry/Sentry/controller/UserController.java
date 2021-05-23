@@ -59,7 +59,7 @@ public class UserController {
     }
     
     
-    
+    /*
     @RequestMapping(value = "/use", method = RequestMethod.GET)
     @ResponseBody
     public  Object currentUserName(Authentication authentication) {
@@ -67,7 +67,7 @@ public class UserController {
     }
    
 
-/*
+
     @GetMapping("/sample")
     public String sampleForm(Model theModel){
         //create model attribute to bind form data
