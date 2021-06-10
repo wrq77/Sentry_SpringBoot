@@ -15,7 +15,7 @@
   	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 </head>
 
-<body>
+<body onload="startTime()">
 
 <!-- MAIN NAVBAR  -->
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
@@ -80,9 +80,9 @@
 								<br/>Welcome home!</p>
                             <br/>
 						 	<p id="show_time0">
-							<script>
+						<!-- 	<script>
 							 setInterval("show_time0.innerHTML=new Date().toLocaleString()",1000);  
-							</script>
+							</script> -->
 
 				        </div>
                        <!--  
@@ -250,5 +250,6 @@
   </footer>
 
 <script th:src="@{/js/offdevice.js}"> </script>
+<script th:src="@{/js/getcurrentdate.js}"> </script>
 </body>
 </html>
