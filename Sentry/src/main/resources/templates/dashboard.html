@@ -77,13 +77,15 @@
 						<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
 
 							<p>Hello <span th:text="${session.user.firstName} + ${session.user.lastName}" >!</span>
-								<br/>It's a
-								sunny day
-								today!</p>
-						 	<br/>
-						 	<p>Paris</p>
-				        </div>
+								<br/>Welcome home!</p>
+                            <br/>
+						 	<p id="show_time0">
+							<script>
+							 setInterval("show_time0.innerHTML=new Date().toLocaleString()",1000);  
+							</script>
 
+				        </div>
+                       <!--  
 			            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 p-0">
 			            	<div class="row row-cols-3 row-cols-sm-3 row-cols-md-1 row-cols-lg-1" >
 			            		<div class="col d-flex align-items-start">
@@ -101,7 +103,7 @@
 						                <p class="pt-lg-2 text-center">&nbsp;&nbsp;10m<sup>3</sup></p>
 					            </div>
 					        </div>
-			            </div>
+			            </div>  -->
 			        </div>
 		        </div>
 		    </div>
@@ -204,7 +206,7 @@
 					</div>
 					
 					<div class="p-3">
-						<div  th:if="${hightemperature} or ${highwater} or ${highgas}" class="alert alert-danger" role="alert" id="offdevicebutton"onclick="offdevice()" >All devices switched off</div>
+						<div  th:if="${hightemperature} or ${highwater} or ${highgas}" class="alert alert-danger" role="alert" id="offdevicebutton"onclick="offdevice()" >All devices switch off</div>
 						</div>
 
                    
